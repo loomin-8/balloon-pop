@@ -114,7 +114,7 @@ function stopGame() {
 let players = []
 loadPlayers()
 
-function setPlayer() {
+function setPlayer(event) {
   event.preventDefault()
   let form = event.target
 
